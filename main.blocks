@@ -1,0 +1,14 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="z#fV-P?klrQ[n/_KjSx@">Player</variable><variable type="KIND_SpriteKind" id="P[T^({ul[l#W|Fqd5|tT">Projectile</variable><variable type="KIND_SpriteKind" id="{(5qS5Qu2FLo[e|Gv{:r">Food</variable><variable type="KIND_SpriteKind" id="kdnF2LY]tYz[IsWX;gZd">Enemy</variable><variable id="%s+wj^O5l7W,QU,vg{84">mySprite</variable><variable id="9LFE:BDO6I7pN6Igy:d1">跑車</variable></variables><block type="pxt-on-start" id="zEraH{;A(=U-TvJs5REI" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="-*mYzqY7*LKJ|hl+t-MC"><field name="VAR" id="9LFE:BDO6I7pN6Igy:d1">跑車</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="[Q9T`~z$~[@e0?TLN_O^"><value name="img"><shadow type="screen_image_picker" id="z{,FWgI.tj-|W$u0}D1R"><field name="img">img`
+. . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . 
+. . . . . . 5 5 5 5 . . . . . . . . 
+5 . . . 5 5 5 a 9 9 5 . . . . . . . 
+5 5 . 5 6 b 5 a a a 9 5 5 . . . . . 
+3 3 5 6 b b 5 a a a a a 5 5 5 . . . 
+. 5 5 3 3 7 7 7 2 2 2 2 5 3 3 5 5 . 
+5 5 3 f f 3 7 7 7 7 2 2 3 f f 3 5 5 
+5 3 f a a f 3 5 7 7 7 3 f a a f 3 5 
+5 5 f a a f 5 5 5 5 5 5 f a a f 5 5 
+. . . f f . . . . . . . . f f . . . 
+. . . . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="~`tGrk-#W8LLqGLA]HVp"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="FJJ(S6]%W*zCJ,yb({f-"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="zt!U88Gwp@lZM,srX1Fl"><field name="VAR" id="9LFE:BDO6I7pN6Igy:d1">跑車</field></block></value><next><block type="startEffectOnSprite" id="L9khlO]sols6c8(X5K7@"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.warmRadial</field><value name="sprite"><block type="variables_get" id="~]J,35IPvcJyxOsE/M?e"><field name="VAR" id="9LFE:BDO6I7pN6Igy:d1">跑車</field></block></value></block></next></block></next></block></statement></block></xml>
